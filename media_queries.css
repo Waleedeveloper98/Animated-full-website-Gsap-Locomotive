@@ -1,0 +1,288 @@
+@media (max-width: 1200px) {
+    body{
+        overflow-x:hidden ;
+    }
+    #page2 {
+        max-height: 100vh;
+        padding-bottom: 0vw;
+    }
+    #page2 h1 {
+        margin-bottom: 2.5vw;
+    
+    }
+    #page2-cards {
+        height: 70%;
+    }
+    
+    
+}
+
+@media (max-width : 998px) {
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0vw 3vw;
+        height: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 999;
+    }
+    #page1-center {
+        padding-top: 12vw;
+        width: 90%;
+        height: 70%;
+    }
+    
+    #page1 .blog {
+        width: 310px;
+        top: 15%;
+        right: 10%;
+    }
+
+    #page1-btm button {
+        width: 10vw;
+        padding: 12px 0px;
+    }
+    #page1-btm-right i {
+        font-size: 2.8vw;
+    }
+    
+}
+@media (max-width: 600px) {
+    nav {
+        width: 85%;
+    }
+    #nav-left {
+        display: flex;
+        gap: 5px;
+    }
+    
+    #nav-left .circle {
+        width: 10px;
+        height: 10px;
+    }
+    
+    #nav-right {
+        gap: 7vw;
+    }
+    
+    #nav-right a {
+
+        font-size: 2.3vw;
+    }
+    #nav-right a i {
+        font-size: 3vw;
+        font-weight: 700;
+    }
+    
+    #page1{
+
+        height: 48vh;
+    }
+    #page1-center {
+        padding-top: 20vw;
+        width: 98%;
+        height: fit-content;
+        padding-bottom: 5vw ;
+    }
+    #page1-center h1{
+        font-size: 11vw;
+        line-height: 1.3;
+
+    }
+    #page1 .blog {
+        width: 210px;
+        top: 10%;
+        right: 10%;
+    }
+
+    #page1-btm button {
+        width: 14vw;
+        padding: 8px 0px;
+        font-size: 1.3vw;
+    }
+    #page1-btm-right a {
+        font-size: 2.8vw;
+    }
+    #page1-btm-right i {
+        font-size: 4.8vw;
+        transform: rotate(90deg);
+    }
+    #page2 {
+        min-height: 130vh;
+        background-color: #f1f1ea;
+    }
+    #page2-cards {
+        height: 25%;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        gap: 20px;
+        margin-top: 50px;
+    }
+    
+    #page2-cards .card {
+        width: 40%;
+        height: 30%;
+    }
+    .card .text-box {
+        padding: 0vw 2vw;
+    }
+    #card1 {
+        height: 85% !important;
+    }
+    
+    #card2 {
+        height: 85% !important;
+    }
+    
+    #card3 {
+        height: 85% !important;
+    }
+    
+    #card4 {
+        height: 85% !important;
+    }
+    
+    #card5 {
+        height: 85% !important;
+    }
+    
+    .text-box h4 {
+        font-size: 3.6vw;
+    }
+    
+    .arrow-div i {
+        font-size: 4.5vw;
+    }
+    #page3{
+        height: 60vh;
+        background-color: #f1f1ea;
+        padding-top: 5vw;
+    }
+    
+    #page3 #page3-btm{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 6vw;
+    }
+    #page3 #page3-left{
+        width: 100%;
+        padding-top: 20px;
+
+        gap: 10px;
+    
+    }
+    #page3-left h1{
+        font-size: 11vw;
+        line-height: .8;
+    }
+    
+    #page3 #page3-right{
+        width: 100%;
+        height:60%;
+    }
+    #page3-right #profile{
+        width: 90%;
+        height: 85%;
+        gap: 10%;
+    }
+    .profile-details h4{
+        font-size: 4.7vw;
+    }
+    .profile-details h6{
+        font-size: 3vw;
+        margin-bottom: 8vw;
+    }
+    .profile-details p{
+        font-size: 2.6vw;
+        width: 100%;
+    }
+    #page4{
+        background-color: #f1f1ea;
+        padding-top: 6vw;
+    }
+    #page4 #blogimg1{
+        position: absolute;
+        width: 220px;
+        bottom: 2%;
+        left: 0%;
+        animation-name: blob1;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-duration: 30s;
+        filter: blur(5px);
+    }
+    #page4 #page4-btm{
+        width: 100%;
+        height:75vh;
+        padding-top: 8vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 8vw;
+
+    
+    }
+    #form-box{
+        width: 100%;
+        /* background-color: skyblue; */
+    }
+    #form-box h5{
+        font-size: 4.5vw;
+    }
+    #form-box input{
+        border-bottom: 1px solid black;
+        margin-bottom: 16px;
+
+    }
+    #form-box select{
+        border-bottom: 1px solid black;
+        margin-bottom: 5vw;
+        
+    }
+    .btn-box{
+        padding-right: 30px;
+    }
+    form button {
+        width: 12vw;
+        padding: 8px 0px;
+        border: 1px solid black;
+        font-size: 1.2vw;; 
+    }
+    #location{
+        width: 100%;
+        height: 50%;
+    }
+    #location h5{
+        font-size: 4.3vw;
+        margin-bottom: 3.1vw;
+    }
+    #location p{
+        margin-bottom: 4.5vw;
+        letter-spacing: 2px;
+        font-size: 3.2vw;
+    }
+    #email{
+        width: 100%;
+        height: 50%;
+    }
+    #email h5{
+        font-size: 4.3vw;
+        margin-bottom: 3.1vw;
+    }
+    #email p{
+        margin-bottom: 4.5vw;
+        font-size: 3.2vw;
+    }
+    #social-btns a{
+        margin-right: 30px;
+        font-size: 3.5vw;
+    }
+    
+}
