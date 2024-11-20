@@ -1,8 +1,12 @@
+@font-face {
+    font-family: main;
+    src: url(fontf.woff2);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: mona sans;
+    font-family: main;
 }
 
 html,
@@ -176,7 +180,7 @@ nav {
     padding: 16px 0px;
     border-radius: 50%;
     border: 1px solid black;
-    font-family: mona sans;
+    font-family: main;
     font-size: .9vw;
     line-height: 1.1;
     text-transform: uppercase;
@@ -562,7 +566,7 @@ form button {
     border-radius: 50%;
     border: none;
     border: 1px solid black;
-    font-family: mona sans;
+    font-family: main;
     font-size: .9vw;
     line-height: 1.1;
     text-transform: uppercase;
